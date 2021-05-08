@@ -1,2 +1,2 @@
-# TicTacToe
+# Tic Tac Toe
 JavaScript Tic Tac Toe Game
