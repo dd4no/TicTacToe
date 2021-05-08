@@ -1,0 +1,43 @@
+/*  Dave Defourneaux	        */	    
+/*  dave.defourneaux@gmail.com	*/
+/*  github.com/dd4no		    */
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Comic Sans MS", sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px lightyellow;
+}
+
+.gameContainer {
+    padding: 10px;
+    border: 5px double rgba(88, 24, 5, 1);
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 608px;
+    background-color: white;
+}
+
+canvas {
+    position: absolute;
+    z-index: 10;
+    pointer-events: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+td {
+    padding: 0px;
+    border: 4px solid rgba(153, 36, 0, 0.8);
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+
+}
